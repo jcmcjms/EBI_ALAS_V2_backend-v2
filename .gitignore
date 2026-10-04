@@ -1,0 +1,59 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# User secrets
+appsettings.Development.json
+appsettings.*.json
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+packages/
+*.nupkg
+
+# Docker
+docker-compose.override.yml
+
+# Certificates
+*.pfx
+*.p12
+
+# Database
+*.mdf
+*.ldf
+
+# Environment
+.env
+.env.local
+
+# Coverage
+coverage/
+*.coverage
+docs/
+.mimocode/
+.github/
+AGENTS.md
